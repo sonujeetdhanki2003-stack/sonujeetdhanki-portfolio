@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sonujeetdhanki.is-a.dev/sitemap.xml
