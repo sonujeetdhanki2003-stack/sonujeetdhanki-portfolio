@@ -46,3 +46,6 @@
 .dl__none{font-size:13px;opacity:.7;margin-top:8px}
 .dl__hint{font-size:13px;opacity:.7;margin-top:18px}
 @media (max-width:600px){.games__grid{grid-template-columns:1fr}.dl__btn{min-width:0;width:100%}}
+
+/* v2.8: no backdrop blur on phones (blur repaints on every scroll frame) */
+@media (max-width:820px){.pill,.game,.game__msg,.feature__play{-webkit-backdrop-filter:none!important;backdrop-filter:none!important}}
